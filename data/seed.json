@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28T03:15:07.067075+00:00",
+  "items": [
+    {
+      "code": "MAT-001",
+      "name": "육각 볼트",
+      "spec": "M8 × 30mm",
+      "category": "체결류",
+      "unit": "EA",
+      "warehouse": "본사 창고",
+      "location": "A-01-01",
+      "supplier": "대한볼트",
+      "opening": 1200,
+      "min": 300,
+      "price": 120,
+      "id": "item-001"
+    },
+    {
+      "code": "MAT-002",
+      "name": "스테인리스 너트",
+      "spec": "M8 / SUS304",
+      "category": "체결류",
+      "unit": "EA",
+      "warehouse": "본사 창고",
+      "location": "A-01-02",
+      "supplier": "대한볼트",
+      "opening": 180,
+      "min": 200,
+      "price": 80,
+      "id": "item-002"
+    },
+    {
+      "code": "MAT-003",
+      "name": "알루미늄 프로파일",
+      "spec": "3030 / 1m",
+      "category": "금속류",
+      "unit": "본",
+      "warehouse": "제2 창고",
+      "location": "B-02-01",
+      "supplier": "한국메탈",
+      "opening": 95,
+      "min": 30,
+      "price": 8500,
+      "id": "item-003"
+    },
+    {
+      "code": "MAT-004",
+      "name": "전선 케이블",
+      "spec": "VCTF 2C / 1.5SQ",
+      "category": "전기자재",
+      "unit": "m",
+      "warehouse": "본사 창고",
+      "location": "C-01-03",
+      "supplier": "한빛전기",
+      "opening": 360,
+      "min": 100,
+      "price": 1250,
+      "id": "item-004"
+    },
+    {
+      "code": "MAT-005",
+      "name": "안전 장갑",
+      "spec": "코팅 / L",
+      "category": "소모품",
+      "unit": "켤레",
+      "warehouse": "현장 창고",
+      "location": "D-01-01",
+      "supplier": "세이프코리아",
+      "opening": 22,
+      "min": 50,
+      "price": 2200,
+      "id": "item-005"
+    },
+    {
+      "code": "MAT-006",
+      "name": "실리콘 실란트",
+      "spec": "투명 / 300ml",
+      "category": "소모품",
+      "unit": "EA",
+      "warehouse": "현장 창고",
+      "location": "D-02-03",
+      "supplier": "세이프코리아",
+      "opening": 70,
+      "min": 30,
+      "price": 4800,
+      "id": "item-006"
+    },
+    {
+      "code": "MAT-007",
+      "name": "스테인리스 판재",
+      "spec": "1T / 1000 × 2000",
+      "category": "금속류",
+      "unit": "장",
+      "warehouse": "제2 창고",
+      "location": "B-01-01",
+      "supplier": "한국메탈",
+      "opening": 18,
+      "min": 5,
+      "price": 125000,
+      "id": "item-007"
+    },
+    {
+      "code": "MAT-008",
+      "name": "LED 작업등",
+      "spec": "30W / 주광색",
+      "category": "전기자재",
+      "unit": "EA",
+      "warehouse": "본사 창고",
+      "location": "C-02-01",
+      "supplier": "한빛전기",
+      "opening": 0,
+      "min": 10,
+      "price": 24000,
+      "id": "item-008"
+    },
+    {
+      "code": "MAT-009",
+      "name": "평와셔",
+      "spec": "M8 / 아연도금",
+      "category": "체결류",
+      "unit": "EA",
+      "warehouse": "본사 창고",
+      "location": "A-01-03",
+      "supplier": "대한볼트",
+      "opening": 2200,
+      "min": 500,
+      "price": 25,
+      "id": "item-009"
+    },
+    {
+      "code": "MAT-010",
+      "name": "포장 테이프",
+      "spec": "48mm × 50m",
+      "category": "소모품",
+      "unit": "롤",
+      "warehouse": "현장 창고",
+      "location": "D-03-01",
+      "supplier": "모아패키지",
+      "opening": 120,
+      "min": 40,
+      "price": 1500,
+      "id": "item-010"
+    },
+    {
+      "code": "MAT-011",
+      "name": "PVC 배관",
+      "spec": "25mm / 4m",
+      "category": "배관류",
+      "unit": "본",
+      "warehouse": "제2 창고",
+      "location": "B-03-01",
+      "supplier": "대성파이프",
+      "opening": 40,
+      "min": 15,
+      "price": 6500,
+      "id": "item-011"
+    },
+    {
+      "code": "MAT-012",
+      "name": "엘보 연결관",
+      "spec": "25mm / 90°",
+      "category": "배관류",
+      "unit": "EA",
+      "warehouse": "제2 창고",
+      "location": "B-03-02",
+      "supplier": "대성파이프",
+      "opening": 8,
+      "min": 20,
+      "price": 1200,
+      "id": "item-012"
+    }
+  ],
+  "movements": [
+    {
+      "id": "mov-001",
+      "itemId": "item-001",
+      "type": "in",
+      "qty": 150,
+      "date": "2026-10-22",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-002",
+      "itemId": "item-001",
+      "type": "out",
+      "qty": 95,
+      "date": "2026-10-22",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-003",
+      "itemId": "item-004",
+      "type": "in",
+      "qty": 20,
+      "date": "2026-10-22",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-004",
+      "itemId": "item-010",
+      "type": "out",
+      "qty": 3,
+      "date": "2026-10-22",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-005",
+      "itemId": "item-001",
+      "type": "in",
+      "qty": 167,
+      "date": "2026-10-23",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-006",
+      "itemId": "item-001",
+      "type": "out",
+      "qty": 104,
+      "date": "2026-10-23",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-007",
+      "itemId": "item-004",
+      "type": "in",
+      "qty": 23,
+      "date": "2026-10-23",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-008",
+      "itemId": "item-010",
+      "type": "out",
+      "qty": 4,
+      "date": "2026-10-23",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-009",
+      "itemId": "item-001",
+      "type": "in",
+      "qty": 184,
+      "date": "2026-10-24",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-010",
+      "itemId": "item-001",
+      "type": "out",
+      "qty": 113,
+      "date": "2026-10-24",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-011",
+      "itemId": "item-004",
+      "type": "in",
+      "qty": 26,
+      "date": "2026-10-24",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-012",
+      "itemId": "item-010",
+      "type": "out",
+      "qty": 5,
+      "date": "2026-10-24",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-013",
+      "itemId": "item-001",
+      "type": "in",
+      "qty": 201,
+      "date": "2026-10-25",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-014",
+      "itemId": "item-001",
+      "type": "out",
+      "qty": 122,
+      "date": "2026-10-25",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-015",
+      "itemId": "item-004",
+      "type": "in",
+      "qty": 29,
+      "date": "2026-10-25",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-016",
+      "itemId": "item-010",
+      "type": "out",
+      "qty": 6,
+      "date": "2026-10-25",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-017",
+      "itemId": "item-001",
+      "type": "in",
+      "qty": 218,
+      "date": "2026-10-26",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-018",
+      "itemId": "item-001",
+      "type": "out",
+      "qty": 131,
+      "date": "2026-10-26",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-019",
+      "itemId": "item-004",
+      "type": "in",
+      "qty": 32,
+      "date": "2026-10-26",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-020",
+      "itemId": "item-010",
+      "type": "out",
+      "qty": 7,
+      "date": "2026-10-26",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-021",
+      "itemId": "item-001",
+      "type": "in",
+      "qty": 235,
+      "date": "2026-10-27",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-022",
+      "itemId": "item-001",
+      "type": "out",
+      "qty": 140,
+      "date": "2026-10-27",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-023",
+      "itemId": "item-004",
+      "type": "in",
+      "qty": 35,
+      "date": "2026-10-27",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-024",
+      "itemId": "item-010",
+      "type": "out",
+      "qty": 8,
+      "date": "2026-10-27",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-025",
+      "itemId": "item-001",
+      "type": "in",
+      "qty": 252,
+      "date": "2026-10-28",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-026",
+      "itemId": "item-001",
+      "type": "out",
+      "qty": 149,
+      "date": "2026-10-28",
+      "note": "가상 데이터 · 현장 작업 출고"
+    },
+    {
+      "id": "mov-027",
+      "itemId": "item-004",
+      "type": "in",
+      "qty": 38,
+      "date": "2026-10-28",
+      "note": "가상 데이터 · 정기 자재 입고"
+    },
+    {
+      "id": "mov-028",
+      "itemId": "item-010",
+      "type": "out",
+      "qty": 9,
+      "date": "2026-10-28",
+      "note": "가상 데이터 · 현장 작업 출고"
+    }
+  ]
+}
